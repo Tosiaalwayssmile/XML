@@ -34,6 +34,7 @@
   <authors_list>
     <authors_definition name="Stephen" surname="King" id="SK0" />
     <authors_definition name="Graham" surname="Mastertron" id="GM0" />
+    <authors_definition name="Linda" surname="Kage" id="LK0" />
     <!-- WINCYJ! autorów WINCYJ! -->
   </authors_list>
   <book_list>
@@ -48,10 +49,10 @@
         <book_author kto="SK0">
           <name>Stephen</name>
           <surname>King</surname>
-        </book_author>
-        <price>26,99zł</price>
+        </book_author>      
         <release_date>2009-05-12</release_date>
-        <ISBN>9789544090838</ISBN>
+        <ISBN>61804036</ISBN>
+        <price>26,99zł</price>
       </books>
   <!-- *******************  2 **************************** -->
       <books blok="2" cover="it">
@@ -60,9 +61,9 @@
           <name>Stephen</name>
           <surname>King</surname>
         </book_author>
-        <price>32,13zł</price>
         <release_date>2017-08-30</release_date>
-        <ISBN>8689544090838</ISBN>
+        <ISBN>22284983</ISBN>
+        <price>32,13zł</price>
       </books>
   <!-- *******************  3 **************************** -->   
         <books blok="3" cover="outsider">
@@ -71,9 +72,9 @@
             <name>Stephen</name>
             <surname>King</surname>
           </book_author>
-          <price>31,50zł</price>
           <release_date>2018-06-05</release_date>
-          <ISBN>9781501180989</ISBN>
+          <ISBN>25981131</ISBN>
+          <price>31,50zł</price>
       </books>
   <!-- *******************  4 **************************** -->
       <books blok="4" cover="infekcja">
@@ -82,9 +83,9 @@
           <name>Graham</name>
           <surname>Mastertron</surname>
         </book_author>
-        <price>28,72zł</price>
         <release_date>2019-01-22</release_date>
-        <ISBN>6689344090838</ISBN>
+        <ISBN>26365077</ISBN>
+        <price>28,72zł</price>
       </books>
   <!-- *******************  5 **************************** -->
       <books blok="5" cover="carrie">
@@ -92,24 +93,24 @@
         <book_author kto="KD0">
           <name>Stephen</name>
           <surname>King</surname>
-        </book_author>
-        <price>14,49zł</price>
+        </book_author>     
         <release_date>2018-12-03</release_date>
-        <ISBN>4489544090838</ISBN>
+        <ISBN>13607739</ISBN>
+        <price>14,49zł</price>
       </books>
       </genre>
 
    <!-- ******************************************************  ROMANSE **************************** -->
     <genre name="Romans">
-      <books blok="1" cover="cmętarz">
-        <book_title>Cmętarz zwieżąt</book_title>
-        <book_author kto="SK0">
-          <name>Stephen</name>
-          <surname>King</surname>
-        </book_author>
-        <price>26,99zł</price>
-        <release_date>2009-05-12</release_date>
-        <ISBN>9289544090111</ISBN>
+      <books blok="1" cover="cena">
+        <book_title>Cena pocałunku</book_title>
+        <book_author kto="LK0">
+          <name>Linda</name>
+          <surname>Kage</surname>
+        </book_author>      
+        <release_date>2019-03-13</release_date>
+        <ISBN>31407939</ISBN>
+        <price>28,99zł</price>
       </books>
       <!-- *******************  2 **************************** -->
       <books blok="2" cover="it">
@@ -117,10 +118,10 @@
         <book_author kto="SK0">
           <name>Stephen</name>
           <surname>King</surname>
-        </book_author>
-        <price>32,13zł</price>
+        </book_author>      
         <release_date>2017-08-30</release_date>
         <ISBN>8689544090838</ISBN>
+        <price>32,13zł</price>
       </books>
       <!-- *******************  3 **************************** -->
       <books blok="3" cover="cmętarz">
@@ -128,10 +129,10 @@
         <book_author kto="SK0">
           <name>Stephen</name>
           <surname>King</surname>
-        </book_author>
-        <price>1000zł</price>
+        </book_author>     
         <release_date>10.10.2010</release_date>
         <ISBN>8689544090838</ISBN>
+        <price>1000zł</price>
       </books>
       <!-- *******************  4 **************************** -->
       <books blok="4" cover="cmętarz">
@@ -140,9 +141,9 @@
           <name>Stephen</name>
           <surname>King</surname>
         </book_author>
-        <price>1000zł</price>
         <release_date>10.10.2010</release_date>
         <ISBN>8689544090838</ISBN>
+        <price>1000zł</price>
       </books>
       <!-- *******************  5 **************************** -->
       <books blok="5" cover="cmętarz">
@@ -150,10 +151,10 @@
         <book_author kto="SK0">
           <name>Stephen</name>
           <surname>King</surname>
-        </book_author>
-        <price>1000zł</price>
+        </book_author>       
         <release_date>10.10.2010</release_date>
         <ISBN>8689544090838</ISBN>
+        <price>1000zł</price>
       </books>
     </genre>
     <!-- ******************************************************  PRZYGODOWE **************************** -->
@@ -164,9 +165,9 @@
           <name>Stephen</name>
           <surname>King</surname>
         </book_author>
-        <price>26,99zł</price>
         <release_date>2009-05-12</release_date>
         <ISBN>9789544090838</ISBN>
+        <price>26,99zł</price>
       </books>
       <!-- *******************  2 **************************** -->
       <books blok="2" cover="it">
@@ -174,10 +175,10 @@
         <book_author kto="SK0">
           <name>Stephen</name>
           <surname>King</surname>
-        </book_author>
-        <price>32,13zł</price>
+        </book_author>     
         <release_date>2017-08-30</release_date>
         <ISBN>8689544090838</ISBN>
+        <price>32,13zł</price>
       </books>
       <!-- *******************  3 **************************** -->
       <books blok="3" cover="cmętarz">
@@ -186,9 +187,9 @@
           <name>Stephen</name>
           <surname>King</surname>
         </book_author>
-        <price>1000zł</price>
         <release_date>10.10.2010</release_date>
         <ISBN>8689544090838</ISBN>
+        <price>1000zł</price>
       </books>
       <!-- *******************  4 **************************** -->
       <books blok="4" cover="cmętarz">
@@ -196,10 +197,10 @@
         <book_author kto="SK0">
           <name>Stephen</name>
           <surname>King</surname>
-        </book_author>
-        <price>1000zł</price>
+        </book_author>     
         <release_date>10.10.2010</release_date>
         <ISBN>8689544090838</ISBN>
+        <price>1000zł</price>
       </books>
       <!-- *******************  5 **************************** -->
       <books blok="5" cover="cmętarz">
@@ -208,9 +209,9 @@
           <name>Stephen</name>
           <surname>King</surname>
         </book_author>
-        <price>1000zł</price>
         <release_date>10.10.2010</release_date>
         <ISBN>8689544090838</ISBN>
+        <price>1000zł</price>
       </books>
     </genre>
     <!-- ******************************************************  Biografie **************************** -->
@@ -220,10 +221,10 @@
         <book_author kto="SK0">
           <name>Stephen</name>
           <surname>King</surname>
-        </book_author>
-        <price>26,99zł</price>
+        </book_author>      
         <release_date>2009-05-12</release_date>
         <ISBN>9789544090838</ISBN>
+        <price>26,99zł</price>
       </books>
       <!-- *******************  2 **************************** -->
       <books blok="2" cover="it">
@@ -231,10 +232,10 @@
         <book_author kto="SK0">
           <name>Stephen</name>
           <surname>King</surname>
-        </book_author>
-        <price>32,13zł</price>
+        </book_author>     
         <release_date>2017-08-30</release_date>
         <ISBN>8689544090838</ISBN>
+        <price>32,13zł</price>
       </books>
       <!-- *******************  3 **************************** -->
       <books blok="3" cover="cmętarz">
@@ -243,9 +244,9 @@
           <name>Stephen</name>
           <surname>King</surname>
         </book_author>
-        <price>1000zł</price>
         <release_date>10.10.2010</release_date>
         <ISBN>8689544090838</ISBN>
+        <price>1000zł</price>
       </books>
       <!-- *******************  4 **************************** -->
       <books blok="4" cover="cmętarz">
@@ -254,9 +255,9 @@
           <name>Stephen</name>
           <surname>King</surname>
         </book_author>
-        <price>1000zł</price>
         <release_date>10.10.2010</release_date>
         <ISBN>8689544090838</ISBN>
+        <price>1000zł</price>
       </books>
       <!-- *******************  5 **************************** -->
       <books blok="5" cover="cmętarz">
@@ -265,9 +266,9 @@
           <name>Stephen</name>
           <surname>King</surname>
         </book_author>
-        <price>1000zł</price>
         <release_date>10.10.2010</release_date>
-        <ISBN>8689544090838</ISBN>
+        <ISBN>8689544090838</ISBN> 
+        <price>1000zł</price>
       </books>
     </genre>
    </book_list>
