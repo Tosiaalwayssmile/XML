@@ -295,6 +295,19 @@ books[cover="birthday"]:before {
 books[cover="neverworld"]:before {
     content: url("covers/neverworld.jpg");
 }
+
+books[cover="pozwól"]:before {
+    content: url("covers/pozwól.jpg");
+}
+
+books[cover="przypadkowe"]:before {
+    content: url("covers/przypadkowe.jpg");
+}
+
+books[cover="neverworld"]:before {
+    content: url("covers/neverworld.jpg");
+}
+
 books {
     display: inline-block;
     outline: solid #000 1px;
@@ -310,10 +323,7 @@ books {
         margin-left: 1px;
     }
 
-        books > book_title:first-line {
-            font-size: 125%;
-        }
-
+     
     books > price {
         clear: right;
         float: right;
