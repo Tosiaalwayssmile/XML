@@ -279,7 +279,7 @@ books {
     display: inline-block;
     outline: solid #000 1px;
     width: 17%;
-    height: 35ex;
+    height: 25ex;
     
 }
 
@@ -314,21 +314,22 @@ books {
     books > release_date:before {
         content: "Data wydania: ";
         font-weight: normal;
-        font-size: 80%;
+ 
     }
     books > release_date {
+        margin-top: 10px;
         float: left;
-        font-size: 80%;
+        font-size: 70%;
     }
     books > ISBN:before {
         content: "ISBN: ";
         font-weight: normal;
-        font-size: 80%;
+
     }
     books > ISBN {
         display: inline-block;
         
-        font-size: 80%;
+        font-size: 70%;
     }
     books:last-child {
         margin-bottom: 0px;
