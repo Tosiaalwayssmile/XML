@@ -290,16 +290,21 @@ books {
             font-size: 125%;
         }
 
-books > price {
-    clear: right;
-    float: right;
-    margin-right: 1px;
-    font-size: 70%;
-}
+    books > price {
+        clear: right;
+        float: right;
+        margin-right: 5px;
+        margin-top: 100px;
+        padding: 5px;
+        outline: solid #000 2px;
+        font-weight: bold;
+        font-size: 120%;
+        color: red;
+    }
     books > book_author {
         
         float: left;
-        margin-left: 3px;
+        margin-left: 1px;
         font-size: 80%;
     }
 
