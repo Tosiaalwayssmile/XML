@@ -180,20 +180,52 @@ genre {
 
 
 
-    genre:nth-child(2n):before {
+    genre:nth-child(2):before {
         background-color: #dfb; /* tlo pola z nazwą gatunku*/
         color: #000;
     }
 
-    genre:nth-child(2n) {
+    genre:nth-child(2) {
         background-color: #dfd; /* tlo pola, w ktorym wyswietlane są książki z danego gatunku*/
         color: #000;
     }
 
-        genre:nth-child(2n) > books {
-            background-color: #efe;   /*tlo pola z ksiazka*/
+        genre:nth-child(2) > books {
+            background-color: #efe; /*tlo pola z ksiazka*/
             color: #000;
         }
+
+    genre:nth-child(4):before {
+        background-color: #72cff8; /* tlo pola z nazwą gatunku*/
+        color: #000;
+    }
+
+    genre:nth-child(4) {
+        background-color: #a8e1fa; /* tlo pola, w ktorym wyswietlane są książki z danego gatunku*/
+        color: #000;
+    }
+
+        genre:nth-child(4) > books {
+            background-color: #d3f0fd; /*tlo pola z ksiazka*/
+            color: #000;
+        }
+
+    genre:nth-child(5):before {
+        background-color: #faf897; /* tlo pola z nazwą gatunku   pomarancz*/
+        color: #000;
+    }
+
+    genre:nth-child(5) {
+        background-color: #fcfbc0; /* tlo pola, w ktorym wyswietlane są książki z danego gatunku*/
+        color: #000;
+    }
+
+        genre:nth-child(5) > books {
+            background-color: #fdfcd8; /*tlo pola z ksiazka*/
+            color: #000;
+        }
+
+
 
     genre:last-child {
         border-radius: 3ex;

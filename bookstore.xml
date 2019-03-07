@@ -73,7 +73,7 @@
           </book_author>
           <price>31,50zł</price>
           <release_date>2018-06-05</release_date>
-          <ISBN>8689544090838</ISBN>
+          <ISBN>9781501180989</ISBN>
       </books>
   <!-- *******************  4 **************************** -->
       <books blok="4" cover="infekcja">
@@ -84,7 +84,7 @@
         </book_author>
         <price>28,72zł</price>
         <release_date>2019-01-22</release_date>
-        <ISBN>8689544090838</ISBN>
+        <ISBN>6689344090838</ISBN>
       </books>
   <!-- *******************  5 **************************** -->
       <books blok="5" cover="carrie">
@@ -95,12 +95,126 @@
         </book_author>
         <price>14,49zł</price>
         <release_date>2018-12-03</release_date>
-        <ISBN>8689544090838</ISBN>
+        <ISBN>4489544090838</ISBN>
       </books>
       </genre>
 
    <!-- ******************************************************  ROMANSE **************************** -->
     <genre name="Romans">
+      <books blok="1" cover="cmętarz">
+        <book_title>Cmętarz zwieżąt</book_title>
+        <book_author kto="SK0">
+          <name>Stephen</name>
+          <surname>King</surname>
+        </book_author>
+        <price>26,99zł</price>
+        <release_date>2009-05-12</release_date>
+        <ISBN>9289544090111</ISBN>
+      </books>
+      <!-- *******************  2 **************************** -->
+      <books blok="2" cover="it">
+        <book_title>It</book_title>
+        <book_author kto="SK0">
+          <name>Stephen</name>
+          <surname>King</surname>
+        </book_author>
+        <price>32,13zł</price>
+        <release_date>2017-08-30</release_date>
+        <ISBN>8689544090838</ISBN>
+      </books>
+      <!-- *******************  3 **************************** -->
+      <books blok="3" cover="cmętarz">
+        <book_title>Tytul</book_title>
+        <book_author kto="SK0">
+          <name>Stephen</name>
+          <surname>King</surname>
+        </book_author>
+        <price>1000zł</price>
+        <release_date>10.10.2010</release_date>
+        <ISBN>8689544090838</ISBN>
+      </books>
+      <!-- *******************  4 **************************** -->
+      <books blok="4" cover="cmętarz">
+        <book_title>Tytul</book_title>
+        <book_author kto="SK0">
+          <name>Stephen</name>
+          <surname>King</surname>
+        </book_author>
+        <price>1000zł</price>
+        <release_date>10.10.2010</release_date>
+        <ISBN>8689544090838</ISBN>
+      </books>
+      <!-- *******************  5 **************************** -->
+      <books blok="5" cover="cmętarz">
+        <book_title>Tytul</book_title>
+        <book_author kto="SK0">
+          <name>Stephen</name>
+          <surname>King</surname>
+        </book_author>
+        <price>1000zł</price>
+        <release_date>10.10.2010</release_date>
+        <ISBN>8689544090838</ISBN>
+      </books>
+    </genre>
+    <!-- ******************************************************  PRZYGODOWE **************************** -->
+    <genre name="Przygodowe">
+      <books blok="1" cover="cmętarz">
+        <book_title>Cmętarz zwieżąt</book_title>
+        <book_author kto="SK0">
+          <name>Stephen</name>
+          <surname>King</surname>
+        </book_author>
+        <price>26,99zł</price>
+        <release_date>2009-05-12</release_date>
+        <ISBN>9789544090838</ISBN>
+      </books>
+      <!-- *******************  2 **************************** -->
+      <books blok="2" cover="it">
+        <book_title>It</book_title>
+        <book_author kto="SK0">
+          <name>Stephen</name>
+          <surname>King</surname>
+        </book_author>
+        <price>32,13zł</price>
+        <release_date>2017-08-30</release_date>
+        <ISBN>8689544090838</ISBN>
+      </books>
+      <!-- *******************  3 **************************** -->
+      <books blok="3" cover="cmętarz">
+        <book_title>Tytul</book_title>
+        <book_author kto="SK0">
+          <name>Stephen</name>
+          <surname>King</surname>
+        </book_author>
+        <price>1000zł</price>
+        <release_date>10.10.2010</release_date>
+        <ISBN>8689544090838</ISBN>
+      </books>
+      <!-- *******************  4 **************************** -->
+      <books blok="4" cover="cmętarz">
+        <book_title>Tytul</book_title>
+        <book_author kto="SK0">
+          <name>Stephen</name>
+          <surname>King</surname>
+        </book_author>
+        <price>1000zł</price>
+        <release_date>10.10.2010</release_date>
+        <ISBN>8689544090838</ISBN>
+      </books>
+      <!-- *******************  5 **************************** -->
+      <books blok="5" cover="cmętarz">
+        <book_title>Tytul</book_title>
+        <book_author kto="SK0">
+          <name>Stephen</name>
+          <surname>King</surname>
+        </book_author>
+        <price>1000zł</price>
+        <release_date>10.10.2010</release_date>
+        <ISBN>8689544090838</ISBN>
+      </books>
+    </genre>
+    <!-- ******************************************************  Biografie **************************** -->
+    <genre name="Biografie">
       <books blok="1" cover="cmętarz">
         <book_title>Cmętarz zwieżąt</book_title>
         <book_author kto="SK0">
