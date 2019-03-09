@@ -206,11 +206,11 @@
         <price>23,94zł</price>
       </books>
       <!-- *******************  3 **************************** -->
-      <books blok="3" cover="przypadkowe">
-        <book_title>Przypadkowe szczęście</book_title>
-        <book_author kto="AB0">
-          <name>Abbi</name>
-          <surname>Glines</surname>
+      <books blok="3" cover="ogien">
+        <book_title>Ogień i kość</book_title>
+        <book_author kto="RM0">
+          <name>Rachel A.</name>
+          <surname>Marks</surname>
         </book_author>
         <release_date>2015-08-03</release_date>
          <cover>&M;</cover>
@@ -252,7 +252,7 @@
         </book_author>      
         <release_date>2009-05-12</release_date>
          <cover>&M;</cover>
-        <ISBN>9789544090838</ISBN>
+        <ISBN>31067836</ISBN>
         <price>26,99zł</price>
       </books>
       <!-- *******************  2 **************************** -->
@@ -264,7 +264,7 @@
         </book_author>     
         <release_date>2017-08-30</release_date>
          <cover>&M;</cover>
-        <ISBN>8689544090838</ISBN>
+        <ISBN>31067836</ISBN>
         <price>32,13zł</price>
       </books>
       <!-- *******************  3 **************************** -->
@@ -274,10 +274,10 @@
           <name>Stephen</name>
           <surname>King</surname>
         </book_author>
-        <release_date>10.10.2010</release_date>
+        <release_date>2017-08-30</release_date>
          <cover>&M;</cover>
-        <ISBN>8689544090838</ISBN>
-        <price>1000zł</price>
+        <ISBN>31067836</ISBN>
+        <price>19,99</price>
       </books>
       <!-- *******************  4 **************************** -->
       <books blok="4" cover="cmętarz">
@@ -286,10 +286,10 @@
           <name>Stephen</name>
           <surname>King</surname>
         </book_author>
-        <release_date>10.10.2010</release_date>
+        <release_date>2017-08-30</release_date>
          <cover>&M;</cover>
-        <ISBN>8689544090838</ISBN>
-        <price>1000zł</price>
+        <ISBN>31067836</ISBN>
+        <price>39,99</price>
       </books>
       <!-- *******************  5 **************************** -->
       <books blok="5" cover="cmętarz">
@@ -298,10 +298,10 @@
           <name>Stephen</name>
           <surname>King</surname>
         </book_author>
-        <release_date>10.10.2010</release_date>
+        <release_date>2017-08-30</release_date>
          <cover>&M;</cover>
-        <ISBN>8689544090838</ISBN> 
-        <price>1000zł</price>
+        <ISBN>31067836</ISBN> 
+        <price>29,99zł</price>
       </books>
     </genre>
    </book_list>

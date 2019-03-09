@@ -300,8 +300,8 @@ books[cover="pozwól"]:before {
     content: url("covers/pozwól.jpg");
 }
 
-books[cover="przypadkowe"]:before {
-    content: url("covers/przypadkowe.jpg");
+books[cover="ogien"]:before {
+    content: url("covers/ogien.jpg");
 }
 
 books[cover="neverworld"]:before {
@@ -325,7 +325,7 @@ books {
 
     books > book_title {
         display: block;
-        font-size: 80%;
+        font-size: 90%;
         font-weight: bold;
         margin-left: 1px;
     }
@@ -335,7 +335,7 @@ books {
         clear: right;
         float: right;
         margin-right: 5px;
-        margin-top: 70px;
+        margin-top: 65px;
         padding: 5px;
         outline: solid #000 2px;
         font-weight: bold;
@@ -358,7 +358,6 @@ books {
     books > release_date {
         margin-top: 10px;
         float: left;
-        isplay: inline-block;
         font-size: 80%;
     }
 
