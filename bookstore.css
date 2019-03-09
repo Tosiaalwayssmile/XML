@@ -163,7 +163,7 @@ genre:before {
     background-color: #fec8dc; /* tlo pola z nazwą gatunku*/
     color: #000;
     font-weight: bold;
-    text-transform: capitalize;
+    /*text-transform: capitalize;   */
 }
 genre {
     display: block;
@@ -308,6 +308,13 @@ books[cover="neverworld"]:before {
     content: url("covers/neverworld.jpg");
 }
 
+books[cover="saveme"]:before {
+    content: url("covers/saveme.jpg");
+}
+
+books[cover="las"]:before {
+    content: url("covers/las.jpg");
+}
 books {
     display: inline-block;
     outline: solid #000 1px;
@@ -328,13 +335,15 @@ books {
         clear: right;
         float: right;
         margin-right: 5px;
-        margin-top: 80px;
+        margin-top: 70px;
         padding: 5px;
         outline: solid #000 2px;
         font-weight: bold;
         font-size: 120%;
         color: red;
     }
+
+
     books > book_author {
         float: left;
         margin-left: 1px;
@@ -349,8 +358,19 @@ books {
     books > release_date {
         margin-top: 10px;
         float: left;
+        isplay: inline-block;
         font-size: 80%;
     }
+
+    books > cover:before {
+        content: "Okładka: ";
+        font-weight: normal;
+    }
+
+    books > cover {
+        display: inline-block;
+        font-size: 80%;
+     }
     books > ISBN:before {
         content: "ISBN: ";
         font-weight: normal;
@@ -358,7 +378,6 @@ books {
     }
     books > ISBN {
         display: inline-block;
-        
         font-size: 80%;
     }
     books:last-child {
