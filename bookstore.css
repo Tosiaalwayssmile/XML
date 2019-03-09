@@ -315,6 +315,26 @@ books[cover="saveme"]:before {
 books[cover="las"]:before {
     content: url("covers/las.jpg");
 }
+
+books[cover="becoming"]:before {
+    content: url("covers/becoming.jpg");
+}
+
+books[cover="pełnia"]:before {
+    content: url("covers/pełnia.jpg");
+}
+
+books[cover="skazany"]:before {
+    content: url("covers/skazany.jpg");
+}
+
+books[cover="byli"]:before {
+    content: url("covers/byli.jpg");
+}
+
+books[cover="tata"]:before {
+    content: url("covers/tata.jpg");
+}
 books {
     display: inline-block;
     outline: solid #000 1px;
