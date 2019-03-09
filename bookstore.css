@@ -350,19 +350,19 @@ books {
         margin-left: 1px;
     }
 
-     
+
     books > price {
+        display: inline-block;
         clear: right;
         float: right;
         margin-right: 5px;
-        margin-top: 65px;
+        margin-top: 52px;
         padding: 5px;
         outline: solid #000 2px;
         font-weight: bold;
         font-size: 120%;
         color: red;
     }
-
 
     books > book_author {
         float: left;
@@ -390,6 +390,15 @@ books {
         display: inline-block;
         font-size: 80%;
      }
+    books > pages:before {
+        content: "Liczba stron: ";
+        font-weight: normal;
+    }
+
+    books > pages {
+        display: inline-block;
+        font-size: 80%;
+    }
     books > ISBN:before {
         content: "ISBN: ";
         font-weight: normal;

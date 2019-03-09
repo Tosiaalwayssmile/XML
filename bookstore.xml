@@ -65,6 +65,7 @@
         </book_author>      
         <release_date>2009-05-12</release_date>
         <cover>&M;</cover>
+        <pages>276</pages>
         <ISBN>61804036</ISBN>
         <price>26,99zł</price>
       </books>
@@ -77,6 +78,7 @@
         </book_author>
         <release_date>2017-08-30</release_date>
         <cover>&T;</cover>
+        <pages>843</pages>
         <ISBN>22284983</ISBN>
         <price>32,13zł</price>
       </books>
@@ -88,7 +90,8 @@
             <surname>King</surname>
           </book_author>
           <release_date>2018-06-05</release_date>
-           <cover>&M;</cover>
+          <cover>&M;</cover>
+          <pages>544</pages>
           <ISBN>25981131</ISBN>
           <price>31,50zł</price>
       </books>
@@ -96,11 +99,12 @@
       <books blok="4" cover="infekcja">
         <book_title>Infekcja</book_title>
         <book_author kto="GM0">
-          <name>Graham</name>
-          <surname>Mastertron</surname>
+        <name>Graham</name>
+        <surname>Mastertron</surname>
         </book_author>
         <release_date>2019-01-22</release_date>
-         <cover>&M;</cover>
+        <cover>&M;</cover>
+        <pages>332</pages>
         <ISBN>26365077</ISBN>
         <price>28,72zł</price>
       </books>
@@ -108,26 +112,28 @@
       <books blok="5" cover="carrie">
         <book_title>Carrie</book_title>
         <book_author kto="KD0">
-          <name>Stephen</name>
-          <surname>King</surname>
+        <name>Stephen</name>
+        <surname>King</surname>
         </book_author>     
         <release_date>2018-12-03</release_date>
-         <cover>&M;</cover>
+        <cover>&M;</cover>
+        <pages>235</pages>
         <ISBN>13607739</ISBN>
         <price>14,49zł</price>
       </books>
-      </genre>
+     </genre>
 
    <!-- ******************************************************  ROMANSE **************************** -->
     <genre name="Romans">
       <books blok="1" cover="cena">
         <book_title>Cena pocałunku</book_title>
         <book_author kto="LK0">
-          <name>Linda</name>
-          <surname>Kage</surname>
+        <name>Linda</name>
+        <surname>Kage</surname>
         </book_author>      
         <release_date>2019-03-13</release_date>
-         <cover>&M;</cover>
+        <cover>&M;</cover>
+        <pages>315</pages>
         <ISBN>31407939</ISBN>
         <price>28,99zł</price>
       </books>
@@ -135,11 +141,12 @@
       <books blok="2" cover="piękno">
         <book_title>Piękno oddania</book_title>
         <book_author kto="GC0">
-          <name>Georgia</name>
-          <surname>Cates</surname>
+        <name>Georgia</name>
+        <surname>Cates</surname>
         </book_author>      
         <release_date>2019-04-24</release_date>
-         <cover>&M;</cover>
+        <cover>&M;</cover>
+        <pages>269</pages>
         <ISBN>31546294</ISBN>
         <price>29,99zł</price>
       </books>
@@ -147,11 +154,12 @@
       <books blok="3" cover="haker">
         <book_title>Haker i dziewczyna</book_title>
         <book_author kto="PG0">
-          <name>Penny</name>
-          <surname>Reid</surname>
+        <name>Penny</name>
+        <surname>Reid</surname>
         </book_author>     
         <release_date>	2019-02-27</release_date>
-         <cover>&M;</cover>
+        <cover>&M;</cover>
+        <pages>288</pages>
         <ISBN>31476348</ISBN>
         <price>27,99zł</price>
       </books>
@@ -159,11 +167,12 @@
       <books blok="4" cover="tajemnice">
         <book_title>Bez tajemnic</book_title>
         <book_author kto="MS0">
-          <name>Mia</name>
-          <surname>Sheridan</surname>
+        <name>Mia</name>
+        <surname>Sheridan</surname>
         </book_author>
         <release_date>2019-01-16</release_date>
-         <cover>&M;</cover>
+        <cover>&M;</cover>
+        <pages>366</pages>
         <ISBN>30839991</ISBN>
         <price>31,43zł</price>
       </books>
@@ -171,11 +180,12 @@
       <books blok="5" cover="birthday">
         <book_title>Birthday Girl</book_title>
         <book_author kto="PD1">
-          <name>Penelope</name>
-          <surname>Douglas</surname>
+        <name>Penelope</name>
+        <surname>Douglas</surname>
         </book_author>       
         <release_date>2019-01-09</release_date>
-         <cover>&M;</cover>
+        <cover>&M;</cover>
+        <pages>256</pages>
         <ISBN>30759022</ISBN>
         <price>30,73zł</price>
       </books>
@@ -185,11 +195,12 @@
       <books blok="1" cover="neverworld">
         <book_title>Neverworld Wake</book_title>
         <book_author kto="MP0">
-          <name>Marisha</name>
-          <surname>Pessl</surname>
+        <name>Marisha</name>
+        <surname>Pessl</surname>
         </book_author>
         <release_date>2019-01-16</release_date>
-         <cover>&M;</cover>
+        <cover>&M;</cover>
+        <pages>444</pages>
         <ISBN>30859401</ISBN>
         <price>26,54zł</price>
       </books>
@@ -197,11 +208,12 @@
       <books blok="2" cover="pozwól">
         <book_title>Pozwól się kochać</book_title>
         <book_author kto="AB0">
-          <name>Abbi</name>
-          <surname>Glines</surname>
+        <name>Abbi</name>
+        <surname>Glines</surname>
         </book_author>     
         <release_date>2019-01-23</release_date>
-         <cover>&M;</cover>
+        <cover>&M;</cover>
+        <pages>345</pages>
         <ISBN>31189415</ISBN>
         <price>23,94zł</price>
       </books>
@@ -209,11 +221,12 @@
       <books blok="3" cover="ogien">
         <book_title>Ogień i kość</book_title>
         <book_author kto="RM0">
-          <name>Rachel A.</name>
-          <surname>Marks</surname>
+        <name>Rachel A.</name>
+        <surname>Marks</surname>
         </book_author>
         <release_date>2015-08-03</release_date>
-         <cover>&M;</cover>
+        <cover>&M;</cover>
+        <pages>366</pages>
         <ISBN>17934015</ISBN>
         <price>25,06zł</price>
       </books>
@@ -221,11 +234,12 @@
       <books blok="4" cover="saveme">
         <book_title>Save Me</book_title>
         <book_author kto="MK0">
-          <name>Mona</name>
-          <surname>Kasten</surname>
+        <name>Mona</name>
+        <surname>Kasten</surname>
         </book_author>     
         <release_date>2019-02-13</release_date>
-         <cover>&T;</cover>
+        <cover>&T;</cover>
+        <pages>275</pages>
         <ISBN>30859494</ISBN>
         <price>27,93zł</price>
       </books>
@@ -233,11 +247,12 @@
       <books blok="5" cover="las">
         <book_title>Las</book_title>
         <book_author kto="SG0">
-          <name>Sharon</name>
-          <surname>Gosling</surname>
+        <name>Sharon</name>
+        <surname>Gosling</surname>
         </book_author>
         <release_date>2019-02-13</release_date>
-         <cover>&M;</cover>
+        <cover>&M;</cover>
+        <pages>399</pages>
         <ISBN>31067836</ISBN>
         <price>26,99zł</price>
       </books>
@@ -247,11 +262,12 @@
       <books blok="1" cover="becoming">
         <book_title>Becoming</book_title>
         <book_author kto="MB0">
-          <name>Michelle</name>
-          <surname>Obama</surname>
+        <name>Michelle</name>
+        <surname>Obama</surname>
         </book_author>      
         <release_date>2019-02-13</release_date>
-         <cover>&T;</cover>
+        <cover>&T;</cover>
+        <pages>170</pages>
         <ISBN>25671186</ISBN>
         <price>37,49zł</price>
       </books>
@@ -259,11 +275,12 @@
       <books blok="2" cover="pełnia">
         <book_title>Pełnia życia</book_title>
         <book_author kto="AM0">
-          <name>Agnieszka</name>
-          <surname>Maciąg</surname>
+        <name>Agnieszka</name>
+        <surname>Maciąg</surname>
         </book_author>     
         <release_date>2016-10-26</release_date>
-         <cover>&M;</cover>
+        <cover>&M;</cover>
+        <pages>214</pages>
         <ISBN>20012991</ISBN>
         <price>34,93zł</price>
       </books>
@@ -271,35 +288,38 @@
       <books blok="3" cover="skazany">
         <book_title>Skazany na góry</book_title>
         <book_author kto="DU0">
-          <name>Denis</name>
-          <surname>Urubko</surname>
+        <name>Denis</name>
+        <surname>Urubko</surname>
         </book_author>
         <release_date>2018-04-04</release_date>
-         <cover>&M;</cover>
+        <cover>&M;</cover>
+        <pages>245</pages>
         <ISBN>25553895</ISBN>
-        <price>35,99</price>
+        <price>35,99zł</price>
       </books>
       <!-- *******************  4 **************************** -->
       <books blok="4" cover="byli">
         <book_title>Byli sobie raz</book_title>
         <book_author kto="MK1">
-          <name>Maria</name>
-          <surname>	Konwicka</surname>
+        <name>Maria</name>
+        <surname>	Konwicka</surname>
         </book_author>
         <release_date>2019-04-24</release_date>
-         <cover>&T;</cover>
+        <cover>&T;</cover>
+        <pages>361</pages>
         <ISBN>31513340</ISBN>
-        <price>39,99</price>
+        <price>39,99zł</price>
       </books>
       <!-- *******************  5 **************************** -->
       <books blok="5" cover="tata">
         <book_title>Tata Tadzika</book_title>
         <book_author kto="MS0">
-          <name>Maciej</name>
-          <surname>Stuhr</surname>
+        <name>Maciej</name>
+        <surname>Stuhr</surname>
         </book_author>
         <release_date>2018-10-17</release_date>
-         <cover>&M;</cover>
+        <cover>&M;</cover>
+        <pages>270</pages>
         <ISBN>26991276</ISBN> 
         <price>32,99zł</price>
       </books>
