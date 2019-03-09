@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!ENTITY % day_of_the_week "(poniedziałek|wtorek|środa|czwartek|piątek|sobota|niedziela)">
-<!ENTITY % rodzaj_zajęć "(wykład|ćwiczenia|laboratorium|dodatkowe)">
+<!ENTITY % covertype "(miękka|twarda)">
 <!ELEMENT bookstore (header, lista_prowadzących, plan*)>
 <!ELEMENT header (university, faculty, location, data, authors)>
 <!ELEMENT university (#PCDATA)>
@@ -24,7 +23,6 @@
 <!ELEMENT authors_list (authors_definition+)>
 <!ELEMENT authors_definition EMPTY>
 <!ATTLIST authors_definition
-		stopień NMTOKENS #IMPLIED
 		name NMTOKEN #REQUIRED
 		surname NMTOKEN #REQUIRED
 		id ID #planREQUIRED>

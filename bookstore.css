@@ -381,15 +381,15 @@ books {
         font-size: 80%;
     }
 
-    books > cover:before {
+    books > covertype:before {
         content: "Okładka: ";
         font-weight: normal;
     }
 
-    books > cover {
+    books > covertype {
         display: inline-block;
         font-size: 80%;
-     }
+    }
     books > pages:before {
         content: "Liczba stron: ";
         font-weight: normal;

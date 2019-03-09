@@ -64,7 +64,7 @@
           <surname>King</surname>
         </book_author>      
         <release_date>2009-05-12</release_date>
-        <cover>&M;</cover>
+        <covertype>&M;</covertype>
         <pages>276</pages>
         <ISBN>61804036</ISBN>
         <price>26,99zł</price>
@@ -77,7 +77,7 @@
           <surname>King</surname>
         </book_author>
         <release_date>2017-08-30</release_date>
-        <cover>&T;</cover>
+        <covertype>&T;</covertype>
         <pages>843</pages>
         <ISBN>22284983</ISBN>
         <price>32,13zł</price>
@@ -90,7 +90,7 @@
             <surname>King</surname>
           </book_author>
           <release_date>2018-06-05</release_date>
-          <cover>&M;</cover>
+          <covertype>&M;</covertype>
           <pages>544</pages>
           <ISBN>25981131</ISBN>
           <price>31,50zł</price>
@@ -103,7 +103,7 @@
         <surname>Mastertron</surname>
         </book_author>
         <release_date>2019-01-22</release_date>
-        <cover>&M;</cover>
+        <covertype>&M;</covertype>
         <pages>332</pages>
         <ISBN>26365077</ISBN>
         <price>28,72zł</price>
@@ -116,7 +116,7 @@
         <surname>King</surname>
         </book_author>     
         <release_date>2018-12-03</release_date>
-        <cover>&M;</cover>
+        <covertype>&M;</covertype>
         <pages>235</pages>
         <ISBN>13607739</ISBN>
         <price>14,49zł</price>
@@ -132,7 +132,7 @@
         <surname>Kage</surname>
         </book_author>      
         <release_date>2019-03-13</release_date>
-        <cover>&M;</cover>
+        <covertype>&M;</covertype>
         <pages>315</pages>
         <ISBN>31407939</ISBN>
         <price>28,99zł</price>
@@ -145,7 +145,7 @@
         <surname>Cates</surname>
         </book_author>      
         <release_date>2019-04-24</release_date>
-        <cover>&M;</cover>
+        <covertype>&M;</covertype>
         <pages>269</pages>
         <ISBN>31546294</ISBN>
         <price>29,99zł</price>
@@ -158,7 +158,7 @@
         <surname>Reid</surname>
         </book_author>     
         <release_date>	2019-02-27</release_date>
-        <cover>&M;</cover>
+        <covertype>&M;</covertype>
         <pages>288</pages>
         <ISBN>31476348</ISBN>
         <price>27,99zł</price>
@@ -171,7 +171,7 @@
         <surname>Sheridan</surname>
         </book_author>
         <release_date>2019-01-16</release_date>
-        <cover>&M;</cover>
+        <covertype>&M;</covertype>
         <pages>366</pages>
         <ISBN>30839991</ISBN>
         <price>31,43zł</price>
@@ -184,7 +184,7 @@
         <surname>Douglas</surname>
         </book_author>       
         <release_date>2019-01-09</release_date>
-        <cover>&M;</cover>
+        <covertype>&M;</covertype>
         <pages>256</pages>
         <ISBN>30759022</ISBN>
         <price>30,73zł</price>
@@ -199,7 +199,7 @@
         <surname>Pessl</surname>
         </book_author>
         <release_date>2019-01-16</release_date>
-        <cover>&M;</cover>
+        <covertype>&M;</covertype>
         <pages>444</pages>
         <ISBN>30859401</ISBN>
         <price>26,54zł</price>
@@ -212,7 +212,7 @@
         <surname>Glines</surname>
         </book_author>     
         <release_date>2019-01-23</release_date>
-        <cover>&M;</cover>
+        <covertype>&M;</covertype>
         <pages>345</pages>
         <ISBN>31189415</ISBN>
         <price>23,94zł</price>
@@ -225,7 +225,7 @@
         <surname>Marks</surname>
         </book_author>
         <release_date>2015-08-03</release_date>
-        <cover>&M;</cover>
+        <covertype>&M;</covertype>
         <pages>366</pages>
         <ISBN>17934015</ISBN>
         <price>25,06zł</price>
@@ -238,7 +238,7 @@
         <surname>Kasten</surname>
         </book_author>     
         <release_date>2019-02-13</release_date>
-        <cover>&T;</cover>
+        <covertype>&T;</covertype>
         <pages>275</pages>
         <ISBN>30859494</ISBN>
         <price>27,93zł</price>
@@ -251,7 +251,7 @@
         <surname>Gosling</surname>
         </book_author>
         <release_date>2019-02-13</release_date>
-        <cover>&M;</cover>
+        <covertype>&M;</covertype>
         <pages>399</pages>
         <ISBN>31067836</ISBN>
         <price>26,99zł</price>
@@ -266,7 +266,7 @@
         <surname>Obama</surname>
         </book_author>      
         <release_date>2019-02-13</release_date>
-        <cover>&T;</cover>
+        <covertype>&T;</covertype>
         <pages>170</pages>
         <ISBN>25671186</ISBN>
         <price>37,49zł</price>
@@ -279,7 +279,7 @@
         <surname>Maciąg</surname>
         </book_author>     
         <release_date>2016-10-26</release_date>
-        <cover>&M;</cover>
+        <covertype>&M;</covertype>
         <pages>214</pages>
         <ISBN>20012991</ISBN>
         <price>34,93zł</price>
@@ -292,7 +292,7 @@
         <surname>Urubko</surname>
         </book_author>
         <release_date>2018-04-04</release_date>
-        <cover>&M;</cover>
+        <covertype>&M;</covertype>
         <pages>245</pages>
         <ISBN>25553895</ISBN>
         <price>35,99zł</price>
@@ -305,7 +305,7 @@
         <surname>	Konwicka</surname>
         </book_author>
         <release_date>2019-04-24</release_date>
-        <cover>&T;</cover>
+        <covertype>&T;</covertype>
         <pages>361</pages>
         <ISBN>31513340</ISBN>
         <price>39,99zł</price>
@@ -318,12 +318,11 @@
         <surname>Stuhr</surname>
         </book_author>
         <release_date>2018-10-17</release_date>
-        <cover>&M;</cover>
+        <covertype>&M;</covertype>
         <pages>270</pages>
         <ISBN>26991276</ISBN> 
         <price>32,99zł</price>
       </books>
     </genre>
    </book_list>
-  
-</bookstore>
+  </bookstore>
