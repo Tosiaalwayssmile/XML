@@ -147,9 +147,11 @@ title {
     font-weight: bold;
 }
 
-    title name {
-        text-transform: uppercase;
-    }
+title:before {
+    content: "Lista książek ";
+    text-transform: uppercase;
+}
+
 genre:before {
     content: attr(name);
     display: block;
@@ -178,49 +180,47 @@ genre {
         color: #000;
     }
 
-
-
-    genre:nth-child(2):before {
+    genre:nth-child(3):before {
         background-color: #dfb; /* tlo pola z nazwą gatunku*/
         color: #000;
     }
 
-    genre:nth-child(2) {
+    genre:nth-child(3) {
         background-color: #dfd; /* tlo pola, w ktorym wyswietlane są książki z danego gatunku*/
         color: #000;
     }
 
-        genre:nth-child(2) > books {
+        genre:nth-child(3) > books {
             background-color: #efe; /*tlo pola z ksiazka*/
             color: #000;
         }
 
-    genre:nth-child(4):before {
+    genre:nth-child(5):before {
         background-color: #72cff8; /* tlo pola z nazwą gatunku*/
         color: #000;
     }
 
-    genre:nth-child(4) {
+    genre:nth-child(5) {
         background-color: #a8e1fa; /* tlo pola, w ktorym wyswietlane są książki z danego gatunku*/
         color: #000;
     }
 
-        genre:nth-child(4) > books {
+        genre:nth-child(5) > books {
             background-color: #d3f0fd; /*tlo pola z ksiazka*/
             color: #000;
         }
 
-    genre:nth-child(5):before {
+    genre:nth-child(6):before {
         background-color: #faf897; /* tlo pola z nazwą gatunku   pomarancz*/
         color: #000;
     }
 
-    genre:nth-child(5) {
+    genre:nth-child(6) {
         background-color: #fcfbc0; /* tlo pola, w ktorym wyswietlane są książki z danego gatunku*/
         color: #000;
     }
 
-        genre:nth-child(5) > books {
+        genre:nth-child(6) > books {
             background-color: #fdfcd8; /*tlo pola z ksiazka*/
             color: #000;
         }
@@ -362,6 +362,9 @@ books {
         font-weight: bold;
         font-size: 120%;
         color: red;
+    }
+    books > price:after {
+        content: "zł";
     }
 
     books > book_author {

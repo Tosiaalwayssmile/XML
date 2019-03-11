@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!ENTITY % covertype "(miękka|twarda)">
-<!ELEMENT bookstore (header, lista_prowadzących, plan*)>
+<!ELEMENT bookstore (header, authors_list)>
 <!ELEMENT header (university, faculty, location, data, authors)>
 <!ELEMENT university (#PCDATA)>
 <!ELEMENT faculty (#PCDATA)>
@@ -12,7 +12,7 @@
 		year (2019|2020|2021) #REQUIRED>
 <!-- w 2021 będzie koniec świata, albo trzeba będzie uaktualnić DTD -->
 <!ELEMENT authors (author+)>
-<!ELEMENT author (name, surname, album, field_of_study, specialty, year)>
+<!ELEMENT author (name, surname, id, country, date_of_birth)>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT surname (#PCDATA)>
 <!ELEMENT album (#PCDATA)>
@@ -25,6 +25,9 @@
 <!ATTLIST authors_definition
 		name NMTOKEN #REQUIRED
 		surname NMTOKEN #REQUIRED
-		id ID #planREQUIRED>
-<!ELEMENT  (student,genre+)>
+		id ID #bookstoreREQUIRED>
+<!ELEMENT book_list (authors_definition+)>
+<!ELEMENT books_definition EMPTY>
+<!ATTLIST books_definition
+		book_title 
 <!ELEMENT genre (name)>

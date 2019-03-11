@@ -32,28 +32,69 @@
     </authors>
   </header>
   <authors_list>
-    <authors_definition name="Stephen" surname="King" id="SK0" />
-    <authors_definition name="Graham" surname="Mastertron" id="GM0" />
-    <authors_definition name="Linda" surname="Kage" id="LK0" />
-    <authors_definition name="Georgia" surname="Cates" id="GC0" />
-    <authors_definition name="Penny" surname="Reid" id="PD0" />
-    <authors_definition name="Mia" surname="Sheridan" id="MS0" />
-    <authors_definition name="Penelope" surname="Douglas" id="PD1" />
-    <authors_definition name="Marisha" surname="Pessl" id="MP0" />
-    <authors_definition name="Abbi" surname="Glines" id="AB0" />
-    <authors_definition name="Mona" surname="Kasten" id="MK0" />
-    <authors_definition name="Sharon" surname="Gosling" id="SG0" />
-    <authors_definition name="Michelle" surname="Obama" id="MB" />
-    <authors_definition name="Agnieszka" surname="Maciąg" id="AM0" />
-    <authors_definition name="Denis" surname="Urubko" id="DM0" />
-    <authors_definition name="Maria" surname="	Konwicka" id="MK1" />
-    <authors_definition name="Maciej" surname="Stuhr" id="MS0" />
+    <authors_definition name="Stephen" surname="King" id="SK0" country="Stany Zjednoczone" date_of_birth="1947-09-21" />
+    <authors_definition name="Graham" surname="Mastertron" id="GM0" country="Wielka Brytania" date_of_birth="1946-01-16" />
+    <authors_definition name="Linda" surname="Kage" id="LK0" country="Niemcy" date_of_birth="1960-01-12" />
+    <authors_definition name="Georgia" surname="Cates" id="GC0" country="Stany Zjednoczone" date_of_birth="1982-03-06" />
+    <authors_definition name="Penny" surname="Reid" id="PD0" country="Francja" date_of_birth="1980-02-19" />
+    <authors_definition name="Mia" surname="Sheridan" id="MS0" country="Stany Zjednoczone" date_of_birth="1968-08-01" />
+    <authors_definition name="Penelope" surname="Douglas" id="PD1" country="Stany Zjednoczone" date_of_birth="1971-10-09" />
+    <authors_definition name="Marisha" surname="Pessl" id="MP0" country="Niemcy" date_of_birth="1967-11-10" />
+    <authors_definition name="Abbi" surname="Glines" id="AB0" country="Wielka Brytania" date_of_birth="1961-05-05" />
+    <authors_definition name="Mona" surname="Kasten" id="MK0" country="Stany Zjednoczone" date_of_birth="1955-07-21" />
+    <authors_definition name="Sharon" surname="Gosling" id="SG0" country="Stany Zjednoczone" date_of_birth="1990-09-24" />
+    <authors_definition name="Michelle" surname="Obama" id="MB" country="Stany Zjednoczone" date_of_birth="1966-12-24" />
+    <authors_definition name="Agnieszka" surname="Maciąg" id="AM0" country="Polska" date_of_birth="1973-04-21" />
+    <authors_definition name="Denis" surname="Urubko" id="DM0" country="Polska" date_of_birth="1987-06-26" />
+    <authors_definition name="Maria" surname="	Konwicka" id="MK1" country="Polska" date_of_birth="1956-05-18" />
+    <authors_definition name="Maciej" surname="Stuhr" id="MS0" country="Polska" date_of_birth="1975-01-23" />
     <!-- WINCYJ! autorów WINCYJ! -->
   </authors_list>
   <book_list>
-    <title>
-      <name>Lista książek</name>
-    </title>
+    <title> </title>
+    <books_definition book_title="Cmętarz zwieżąt" book_author_id="SK0" release_date="2009-05-12" covertype="&M;" 
+                      pages="276" ISBN="61804036" price="26,99" genre="Horror" book_id="A00"/>
+    <books_definition book_title="To" book_author_id="SK0" release_date="2017-08-30" covertype="&T;"
+                      pages="843" ISBN="22284983" price="32,13" genre="Horror" book_id="A01"/>
+    <books_definition book_title="Outsider" book_author_id="SK0" release_date="2018-06-05" covertype="&M;"
+                      pages="544" ISBN="25981131" price="31,50" genre="Horror" book_id="A02"/>
+    <books_definition book_title="Infekcja" book_author_id="GM0" release_date="2019-01-22" covertype="&M;"
+                     pages="332" ISBN="26365077" price="28,72" genre="Horror" book_id="A03"/>
+    <books_definition book_title="Carrie" book_author_id="GM0" release_date="2018-12-03" covertype="&M;"
+                     pages="235" ISBN="13607739" price="14,49" genre="Horror" book_id="A04"/>
+    
+    <books_definition book_title="Cena pocałunku" book_author_id="LK0" release_date="2019-03-13" covertype="&M;"
+                     pages="315" ISBN="31407939" price="28,99" genre="Romans" book_id="B00"/>  
+    <books_definition book_title="Piękno oddania" book_author_id="GC0" release_date="2019-04-24" covertype="&M;"
+                      pages="269" ISBN="31546294" price="29,99" genre="Romans" book_id="B01"/>
+    <books_definition book_title="Haker i dziewczyna" book_author_id="PG0" release_date="2019-02-27" covertype="&M;"
+                      pages="288" ISBN="31476348" price="27,99" genre="Romans" book_id="B02"/>
+    <books_definition book_title="Bez tajemnic" book_author_id="MS0" release_date="2019-01-16" covertype="&M;"
+                     pages="366" ISBN="30839991" price="31,43" genre="Romans" book_id="B03"/>
+    <books_definition book_title="Birthday Girl" book_author_id="PD1" release_date="2019-01-09" covertype="&M;"
+                     pages="256" ISBN="30759022" price="30,73" genre="Romans" book_id="B04"/>
+
+    <books_definition book_title="" book_author_id="" release_date="" covertype="&M;"
+                     pages="" ISBN="" price="" genre="Dla młodzieży" book_id="C00"/>
+    <books_definition book_title="" book_author_id="" release_date="" covertype="&M;"
+                      pages="" ISBN="" price="" genre="Dla młodzieży" book_id="C01"/>
+    <books_definition book_title="" book_author_id="" release_date="" covertype="&M;"
+                      pages="" ISBN="" price="" genre="Dla młodzieży" book_id="C02"/>
+    <books_definition book_title="" book_author_id="" release_date="" covertype="&T;"
+                     pages="" ISBN="" price="" genre="Dla młodzieży" book_id="C03"/>
+    <books_definition book_title="" book_author_id="" release_date="" covertype="&M;"
+                     pages="" ISBN="" price="" genre="Dla młodzieży" book_id="C04"/>
+
+    <books_definition book_title="" book_author_id="" release_date="" covertype="&T;"
+                  pages="" ISBN="" price="" genre="Biografie" book_id="D00"/>
+    <books_definition book_title="" book_author_id="" release_date="" covertype="&M;"
+                      pages="" ISBN="" price="" genre="Biografie" book_id="D01"/>
+    <books_definition book_title="" book_author_id="" release_date="" covertype="&M;"
+                      pages="" ISBN="" price="" genre="Biografie" book_id="D02"/>
+    <books_definition book_title="" book_author_id="" release_date="" covertype="&T;"
+                     pages="" ISBN="" price="" genre="Biografie" book_id="D03"/>
+    <books_definition book_title="" book_author_id="" release_date="" covertype="&M;"
+                     pages="" ISBN="" price="" genre="Biografie" book_id="D04"/>
     <!-- ******************************************************  HORRORY **************************** -->
     <genre name="Horror">
  <!-- *******************  1 **************************** -->
@@ -67,7 +108,7 @@
         <covertype>&M;</covertype>
         <pages>276</pages>
         <ISBN>61804036</ISBN>
-        <price>26,99zł</price>
+        <price>26,99</price>
       </books>
   <!-- *******************  2 **************************** -->
       <books blok="2" cover="to">
@@ -80,7 +121,7 @@
         <covertype>&T;</covertype>
         <pages>843</pages>
         <ISBN>22284983</ISBN>
-        <price>32,13zł</price>
+        <price>32,13</price>
       </books>
   <!-- *******************  3 **************************** -->   
         <books blok="3" cover="outsider">
@@ -93,7 +134,7 @@
           <covertype>&M;</covertype>
           <pages>544</pages>
           <ISBN>25981131</ISBN>
-          <price>31,50zł</price>
+          <price>31,50</price>
       </books>
   <!-- *******************  4 **************************** -->
       <books blok="4" cover="infekcja">
@@ -106,7 +147,7 @@
         <covertype>&M;</covertype>
         <pages>332</pages>
         <ISBN>26365077</ISBN>
-        <price>28,72zł</price>
+        <price>28,72</price>
       </books>
   <!-- *******************  5 **************************** -->
       <books blok="5" cover="carrie">
@@ -119,7 +160,7 @@
         <covertype>&M;</covertype>
         <pages>235</pages>
         <ISBN>13607739</ISBN>
-        <price>14,49zł</price>
+        <price>14,49</price>
       </books>
      </genre>
 
@@ -135,7 +176,7 @@
         <covertype>&M;</covertype>
         <pages>315</pages>
         <ISBN>31407939</ISBN>
-        <price>28,99zł</price>
+        <price>28,99</price>
       </books>
       <!-- *******************  2 **************************** -->
       <books blok="2" cover="piękno">
@@ -148,7 +189,7 @@
         <covertype>&M;</covertype>
         <pages>269</pages>
         <ISBN>31546294</ISBN>
-        <price>29,99zł</price>
+        <price>29,99</price>
       </books>
       <!-- *******************  3 **************************** -->
       <books blok="3" cover="haker">
@@ -157,11 +198,11 @@
         <name>Penny</name>
         <surname>Reid</surname>
         </book_author>     
-        <release_date>	2019-02-27</release_date>
+        <release_date>2019-02-27</release_date>
         <covertype>&M;</covertype>
         <pages>288</pages>
         <ISBN>31476348</ISBN>
-        <price>27,99zł</price>
+        <price>27,99</price>
       </books>
       <!-- *******************  4 **************************** -->
       <books blok="4" cover="tajemnice">
@@ -174,7 +215,7 @@
         <covertype>&M;</covertype>
         <pages>366</pages>
         <ISBN>30839991</ISBN>
-        <price>31,43zł</price>
+        <price>31,43</price>
       </books>
       <!-- *******************  5 **************************** -->
       <books blok="5" cover="birthday">
@@ -187,7 +228,7 @@
         <covertype>&M;</covertype>
         <pages>256</pages>
         <ISBN>30759022</ISBN>
-        <price>30,73zł</price>
+        <price>30,73</price>
       </books>
     </genre>
     <!-- ******************************************************  DLA MŁODZIEŻY **************************** -->
@@ -202,7 +243,7 @@
         <covertype>&M;</covertype>
         <pages>444</pages>
         <ISBN>30859401</ISBN>
-        <price>26,54zł</price>
+        <price>26,54</price>
       </books>
       <!-- *******************  2 **************************** -->
       <books blok="2" cover="pozwól">
@@ -215,7 +256,7 @@
         <covertype>&M;</covertype>
         <pages>345</pages>
         <ISBN>31189415</ISBN>
-        <price>23,94zł</price>
+        <price>23,94</price>
       </books>
       <!-- *******************  3 **************************** -->
       <books blok="3" cover="ogien">
@@ -228,7 +269,7 @@
         <covertype>&M;</covertype>
         <pages>366</pages>
         <ISBN>17934015</ISBN>
-        <price>25,06zł</price>
+        <price>25,06</price>
       </books>
       <!-- *******************  4 **************************** -->
       <books blok="4" cover="saveme">
@@ -241,7 +282,7 @@
         <covertype>&T;</covertype>
         <pages>275</pages>
         <ISBN>30859494</ISBN>
-        <price>27,93zł</price>
+        <price>27,93</price>
       </books>
       <!-- *******************  5 **************************** -->
       <books blok="5" cover="las">
@@ -254,7 +295,7 @@
         <covertype>&M;</covertype>
         <pages>399</pages>
         <ISBN>31067836</ISBN>
-        <price>26,99zł</price>
+        <price>26,99</price>
       </books>
     </genre>
     <!-- ******************************************************  Biografie **************************** -->
@@ -269,7 +310,7 @@
         <covertype>&T;</covertype>
         <pages>170</pages>
         <ISBN>25671186</ISBN>
-        <price>37,49zł</price>
+        <price>37,49</price>
       </books>
       <!-- *******************  2 **************************** -->
       <books blok="2" cover="pełnia">
@@ -282,7 +323,7 @@
         <covertype>&M;</covertype>
         <pages>214</pages>
         <ISBN>20012991</ISBN>
-        <price>34,93zł</price>
+        <price>34,93</price>
       </books>
       <!-- *******************  3 **************************** -->
       <books blok="3" cover="skazany">
@@ -295,7 +336,7 @@
         <covertype>&M;</covertype>
         <pages>245</pages>
         <ISBN>25553895</ISBN>
-        <price>35,99zł</price>
+        <price>35,99</price>
       </books>
       <!-- *******************  4 **************************** -->
       <books blok="4" cover="byli">
@@ -308,7 +349,7 @@
         <covertype>&T;</covertype>
         <pages>361</pages>
         <ISBN>31513340</ISBN>
-        <price>39,99zł</price>
+        <price>39,99</price>
       </books>
       <!-- *******************  5 **************************** -->
       <books blok="5" cover="tata">
@@ -321,7 +362,7 @@
         <covertype>&M;</covertype>
         <pages>270</pages>
         <ISBN>26991276</ISBN> 
-        <price>32,99zł</price>
+        <price>32,99</price>
       </books>
     </genre>
    </book_list>
