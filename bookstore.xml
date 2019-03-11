@@ -52,49 +52,49 @@
   </authors_list>
   <book_list>
     <title> </title>
-    <books_definition book_title="Cmętarz zwieżąt" book_author_id="SK0" release_date="2009-05-12" covertype="&M;" 
-                      pages="276" ISBN="61804036" price="26,99" genre="Horror" book_id="A00"/>
+    <books_definition book_title="Cmętarz zwieżąt" book_author_id="SK0" release_date="2009-05-12" covertype="&M;"
+                      cover="cmętarz" pages="276" ISBN="61804036" price="26,99" genre="Horror" book_id="A00"/>
     <books_definition book_title="To" book_author_id="SK0" release_date="2017-08-30" covertype="&T;"
-                      pages="843" ISBN="22284983" price="32,13" genre="Horror" book_id="A01"/>
+                      cover="to" pages="843" ISBN="22284983" price="32,13" genre="Horror" book_id="A01"/>
     <books_definition book_title="Outsider" book_author_id="SK0" release_date="2018-06-05" covertype="&M;"
-                      pages="544" ISBN="25981131" price="31,50" genre="Horror" book_id="A02"/>
+                      cover="outsider" pages="544" ISBN="25981131" price="31,50" genre="Horror" book_id="A02"/>
     <books_definition book_title="Infekcja" book_author_id="GM0" release_date="2019-01-22" covertype="&M;"
-                     pages="332" ISBN="26365077" price="28,72" genre="Horror" book_id="A03"/>
+                      cover="infekcja" pages="332" ISBN="26365077" price="28,72" genre="Horror" book_id="A03"/>
     <books_definition book_title="Carrie" book_author_id="GM0" release_date="2018-12-03" covertype="&M;"
-                     pages="235" ISBN="13607739" price="14,49" genre="Horror" book_id="A04"/>
+                      cover="carrie" pages="235" ISBN="13607739" price="14,49" genre="Horror" book_id="A04"/>
     
     <books_definition book_title="Cena pocałunku" book_author_id="LK0" release_date="2019-03-13" covertype="&M;"
-                     pages="315" ISBN="31407939" price="28,99" genre="Romans" book_id="B00"/>  
+                      cover="cena" pages="315" ISBN="31407939" price="28,99" genre="Romans" book_id="B00"/>  
     <books_definition book_title="Piękno oddania" book_author_id="GC0" release_date="2019-04-24" covertype="&M;"
-                      pages="269" ISBN="31546294" price="29,99" genre="Romans" book_id="B01"/>
+                      cover="piękno" pages="269" ISBN="31546294" price="29,99" genre="Romans" book_id="B01"/>
     <books_definition book_title="Haker i dziewczyna" book_author_id="PG0" release_date="2019-02-27" covertype="&M;"
-                      pages="288" ISBN="31476348" price="27,99" genre="Romans" book_id="B02"/>
+                      cover="haker" pages="288" ISBN="31476348" price="27,99" genre="Romans" book_id="B02"/>
     <books_definition book_title="Bez tajemnic" book_author_id="MS0" release_date="2019-01-16" covertype="&M;"
-                     pages="366" ISBN="30839991" price="31,43" genre="Romans" book_id="B03"/>
+                      cover="tajemnice" pages="366" ISBN="30839991" price="31,43" genre="Romans" book_id="B03"/>
     <books_definition book_title="Birthday Girl" book_author_id="PD1" release_date="2019-01-09" covertype="&M;"
-                     pages="256" ISBN="30759022" price="30,73" genre="Romans" book_id="B04"/>
+                      cover="birthday" pages="256" ISBN="30759022" price="30,73" genre="Romans" book_id="B04"/>
+    
+    <books_definition book_title="Neverworld Wake" book_author_id="MP0" release_date="2019-01-16" covertype="&M;"
+                      cover="neverworld" pages="444" ISBN="30859401" price="26,54" genre="Dla młodzieży" book_id="C01"/>
+    <books_definition book_title="Pozwól się kochać" book_author_id="AB0" release_date="2019-01-23" covertype="&M;"
+                      cover="pozwól" pages="345" ISBN="31189415" price="23,94" genre="Dla młodzieży" book_id="C02"/>
+    <books_definition book_title="Ogień i kość" book_author_id="RM0" release_date="2015-08-03" covertype="&T;"
+                      cover="ogien" pages="366" ISBN="17934015" price="25,06" genre="Dla młodzieży" book_id="C03"/>
+    <books_definition book_title="Save Me" book_author_id="MK0" release_date="2019-02-13" covertype="&M;"
+                      cover="saveme" pages="275" ISBN="30859494" price="27,93" genre="Dla młodzieży" book_id="C04"/>
+    <books_definition book_title="Las" book_author_id="SG0" release_date="2019-02-13" covertype="&M;"
+                      cover="las" pages="399" ISBN="31067836" price="26,99" genre="Dla młodzieży" book_id="C00"/>
 
-    <books_definition book_title="" book_author_id="" release_date="" covertype="&M;"
-                     pages="" ISBN="" price="" genre="Dla młodzieży" book_id="C00"/>
-    <books_definition book_title="" book_author_id="" release_date="" covertype="&M;"
-                      pages="" ISBN="" price="" genre="Dla młodzieży" book_id="C01"/>
-    <books_definition book_title="" book_author_id="" release_date="" covertype="&M;"
-                      pages="" ISBN="" price="" genre="Dla młodzieży" book_id="C02"/>
-    <books_definition book_title="" book_author_id="" release_date="" covertype="&T;"
-                     pages="" ISBN="" price="" genre="Dla młodzieży" book_id="C03"/>
-    <books_definition book_title="" book_author_id="" release_date="" covertype="&M;"
-                     pages="" ISBN="" price="" genre="Dla młodzieży" book_id="C04"/>
-
-    <books_definition book_title="" book_author_id="" release_date="" covertype="&T;"
-                  pages="" ISBN="" price="" genre="Biografie" book_id="D00"/>
-    <books_definition book_title="" book_author_id="" release_date="" covertype="&M;"
-                      pages="" ISBN="" price="" genre="Biografie" book_id="D01"/>
-    <books_definition book_title="" book_author_id="" release_date="" covertype="&M;"
-                      pages="" ISBN="" price="" genre="Biografie" book_id="D02"/>
-    <books_definition book_title="" book_author_id="" release_date="" covertype="&T;"
-                     pages="" ISBN="" price="" genre="Biografie" book_id="D03"/>
-    <books_definition book_title="" book_author_id="" release_date="" covertype="&M;"
-                     pages="" ISBN="" price="" genre="Biografie" book_id="D04"/>
+    <books_definition book_title="Becoming" book_author_id="MB0" release_date="2019-02-13" covertype="&T;"
+                      cover="becoming" pages="170" ISBN="25671186" price="37,49" genre="Biografie" book_id="D00"/>
+    <books_definition book_title="Pełnia życia" book_author_id="AM0" release_date="2016-10-26" covertype="&M;"
+                      cover="pełnia" pages="214" ISBN="20012991" price="34,93" genre="Biografie" book_id="D01"/>
+    <books_definition book_title="Skazany na góry" book_author_id="DU0" release_date="2018-04-04" covertype="&M;"
+                      cover="skazany" pages="245" ISBN="25553895" price="35,99" genre="Biografie" book_id="D02"/>
+    <books_definition book_title="Byli sobie raz" book_author_id="MK1" release_date="2019-04-24" covertype="&T;"
+                      cover="byli" pages="361" ISBN="31513340" price="39,99" genre="Biografie" book_id="D03"/>
+    <books_definition book_title="Tata Tadzika" book_author_id="MS0" release_date="2018-10-17" covertype="&M;"
+                      cover="tata" pages="270" ISBN="26991276" price="32,99" genre="Biografie" book_id="D04"/>
     <!-- ******************************************************  HORRORY **************************** -->
     <genre name="Horror">
  <!-- *******************  1 **************************** -->

@@ -304,10 +304,6 @@ books[cover="ogien"]:before {
     content: url("covers/ogien.jpg");
 }
 
-books[cover="neverworld"]:before {
-    content: url("covers/neverworld.jpg");
-}
-
 books[cover="saveme"]:before {
     content: url("covers/saveme.jpg");
 }
