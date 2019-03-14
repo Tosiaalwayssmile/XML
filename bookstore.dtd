@@ -29,7 +29,6 @@
           country NMTOKENS #IMPLIED
           date_of_birth NMTOKEN #IMPLIED>
 
-
   <!ELEMENT book_list (genre+)>
     <!ELEMENT genre (books*)>
       <!ATTLIST genre 
