@@ -1,33 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!ENTITY % covertype "(miękka|twarda)">
-<!ELEMENT bookstore (header, authors_list)>
+<!ELEMENT bookstore (header, authors_list, book_list)>
 <!ELEMENT header (university, faculty, location, data, authors)>
 <!ELEMENT university (#PCDATA)>
 <!ELEMENT faculty (#PCDATA)>
 <!ELEMENT location (#PCDATA)>
 <!ELEMENT data EMPTY>
 <!ATTLIST data
-		day (1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31) #REQUIRED
-		month (I|II|III|IV|V|VI|VII|VIII|IX|X|XI|XII) #REQUIRED
-		year (2019|2020|2021) #REQUIRED>
+		        day (1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31) #REQUIRED
+		        month (I|II|III|IV|V|VI|VII|VIII|IX|X|XI|XII) #REQUIRED
+		        year (2019|2020|2021) #REQUIRED>
 <!-- w 2021 będzie koniec świata, albo trzeba będzie uaktualnić DTD -->
+
 <!ELEMENT authors (author+)>
-<!ELEMENT author (name, surname, id, country, date_of_birth)>
+<!ELEMENT author (name, surname, album, field_of_study, specialty, year)>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT surname (#PCDATA)>
 <!ELEMENT album (#PCDATA)>
 <!ELEMENT field_of_study (#PCDATA)>
 <!ELEMENT specialty (#PCDATA)>
-<!ATTLIST specialty ips (nie|tak) "nie">
 <!ELEMENT year (#PCDATA)>
-<!ELEMENT authors_list (authors_definition+)>
+
+<!ELEMENT authors_list (authors_definition*)>
 <!ELEMENT authors_definition EMPTY>
 <!ATTLIST authors_definition
-		name NMTOKEN #REQUIRED
-		surname NMTOKEN #REQUIRED
-		id ID #bookstoreREQUIRED>
-<!ELEMENT book_list (authors_definition+)>
-<!ELEMENT books_definition EMPTY>
-<!ATTLIST books_definition
-		book_title 
-<!ELEMENT genre (name)>
+		      name NMTOKENS #REQUIRED
+		      surname NMTOKENS #REQUIRED
+		      id ID #REQUIRED
+          country NMTOKENS #IMPLIED
+          date_of_birth CDATA #IMPLIED>
+
+
+<!ELEMENT book_list (genre+)>
+<!ELEMENT genre (books*)>
+<!ELEMENT books (book_title, book_author, release_date, covertype, pages, ISBN, price)>
+<!ELEMENT book_title (#PCDATA)>
+<!ELEMENT book_author (name, surname)>
+<!ELEMENT release_date (#PCDATA)>
+<!ELEMENT covertype EMPTY>
+<!ATTLIST books covertype (miękka | twarda) #REQUIRED>
+<!ELEMENT pages (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
