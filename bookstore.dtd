@@ -1,43 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!ELEMENT bookstore (header, authors_list, book_list)>
-<!ELEMENT header (university, faculty, location, data, authors)>
-<!ELEMENT university (#PCDATA)>
-<!ELEMENT faculty (#PCDATA)>
-<!ELEMENT location (#PCDATA)>
-<!ELEMENT data EMPTY>
-<!ATTLIST data
+    <!ELEMENT header (university, faculty, location, data, authors)>
+      <!ELEMENT university (#PCDATA)>
+      <!ELEMENT faculty (#PCDATA)>
+      <!ELEMENT location (#PCDATA)>
+      <!ELEMENT data EMPTY>
+        <!ATTLIST data
 		        day (1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31) #REQUIRED
 		        month (I|II|III|IV|V|VI|VII|VIII|IX|X|XI|XII) #REQUIRED
 		        year (2019|2020|2021) #REQUIRED>
-<!-- w 2021 będzie koniec świata, albo trzeba będzie uaktualnić DTD -->
+        <!-- w 2021 będzie koniec świata, albo trzeba będzie uaktualnić DTD -->
 
-<!ELEMENT authors (author+)>
-<!ELEMENT author (name, surname, album, field_of_study, specialty, year)>
-<!ELEMENT name (#PCDATA)>
-<!ELEMENT surname (#PCDATA)>
-<!ELEMENT album (#PCDATA)>
-<!ELEMENT field_of_study (#PCDATA)>
-<!ELEMENT specialty (#PCDATA)>
-<!ELEMENT year (#PCDATA)>
+  <!ELEMENT authors (author+)>
+    <!ELEMENT author (name, surname, album, field_of_study, specialty, year)>
+      <!ELEMENT name (#PCDATA)>
+      <!ELEMENT surname (#PCDATA)>
+      <!ELEMENT album (#PCDATA)>
+      <!ELEMENT field_of_study (#PCDATA)>
+      <!ELEMENT specialty (#PCDATA)>
+      <!ELEMENT year (#PCDATA)>
 
-<!ELEMENT authors_list (authors_definition*)>
-<!ELEMENT authors_definition EMPTY>
-<!ATTLIST authors_definition
+  <!ELEMENT authors_list (authors_definition*)>
+    <!ELEMENT authors_definition EMPTY>
+      <!ATTLIST authors_definition
 		      name NMTOKENS #REQUIRED
 		      surname NMTOKENS #REQUIRED
 		      id ID #REQUIRED
           country NMTOKENS #IMPLIED
-          date_of_birth CDATA #IMPLIED>
+          date_of_birth NMTOKEN #IMPLIED>
 
 
-<!ELEMENT book_list (genre+)>
-<!ELEMENT genre (books*)>
-<!ELEMENT books (book_title, book_author, release_date, covertype, pages, ISBN, price)>
-<!ELEMENT book_title (#PCDATA)>
-<!ELEMENT book_author (name, surname)>
-<!ELEMENT release_date (#PCDATA)>
-<!ELEMENT covertype EMPTY>
-<!ATTLIST books covertype (miękka | twarda) #REQUIRED>
-<!ELEMENT pages (#PCDATA)>
-<!ELEMENT ISBN (#PCDATA)>
-<!ELEMENT price (#PCDATA)>
+  <!ELEMENT book_list (genre+)>
+    <!ELEMENT genre (books*)>
+      <!ATTLIST genre 
+                name (Horror | Romans | Młodzieżowe | Biografie) #REQUIRED>
+      <!ELEMENT books (book_title, book_author, release_date, covertype, pages, ISBN, price)>
+        <!ELEMENT book_title (#PCDATA)>
+        <!ELEMENT book_author (name, surname)>
+        <!ELEMENT release_date (#PCDATA)>
+        <!ELEMENT covertype EMPTY>
+          <!ATTLIST books covertype (miękka | twarda) #REQUIRED>
+        <!ELEMENT pages (#PCDATA)>
+        <!ELEMENT ISBN (#PCDATA)>
+        <!ELEMENT price (#PCDATA)>
