@@ -6,62 +6,63 @@
     font-size: 10pt;
     font-family: "DejaVu Sans", sans-serif;
 }
+
 header {
     display: block;
     border-style: double;
     border-width: 5px;
     border-radius: 2ex;
-    padding-left: 10px ;
+    padding-left: 10px;
     font-size: 150%;
     font-family: "DejaVu Serif", serif;
 }
 
-header > * {
-    display: block;
-}
-
-header > university {
-    font-weight: bold;
-    text-decoration: underline;
-    padding-bottom: 1px;
-    font-size: 110%;
-}
-
-header > faculty:before {
-    content: "Wydział: ";
-    font-weight: normal;
-    font-size: 90%;
-}
-
-header > faculty {
-    font-weight: normal;
-    font-size: 100%;
-}
-
-header > location, header > data {
-    display: inline;
-    font-style: italic;
-    font-size: 90%;
-}
-
-    header > location:after {
-        content: ", ";
+    header > * {
+        display: block;
     }
 
-header > data:before {
-    content: "dnia ";
-}
+    header > university {
+        font-weight: bold;
+        text-decoration: underline;
+        padding-bottom: 1px;
+        font-size: 110%;
+    }
 
-header > data:after {
-    content: attr(day) " " attr(month) " " attr(year);
-}
+    header > faculty:before {
+        content: "Wydział: ";
+        font-weight: normal;
+        font-size: 90%;
+    }
 
-header > authors:before {
-    content: "Autorzy: ";
-    display: block;
-    margin-top: 1ex;
-    margin-bottom: 1ex;
-}
+    header > faculty {
+        font-weight: normal;
+        font-size: 100%;
+    }
+
+    header > location, header > data {
+        display: inline;
+        font-style: italic;
+        font-size: 90%;
+    }
+
+        header > location:after {
+            content: ", ";
+        }
+
+        header > data:before {
+            content: "dnia ";
+        }
+
+        header > data:after {
+            content: attr(day) " " attr(month) " " attr(year);
+        }
+
+    header > authors:before {
+        content: "Autorzy: ";
+        display: block;
+        margin-top: 1ex;
+        margin-bottom: 1ex;
+    }
 
     header > authors {
         margin-left: 1em; /* em Wielkość em to po prostu rozmiar czcionki. Dla elementu, którego czcionka wynosi 2 cale, 1 em oznacza 2 cale.*/
@@ -75,18 +76,18 @@ header > authors:before {
             Czcionki, które mają taki sam rozmiar (i taki sam em) mogą się znacznie różnić wielkością małych liter. .*/
     }
 
-    header author > surname:after {
-        content: ", ";
-        font-size: 80%;
-    }
+        header author > surname:after {
+            content: ", ";
+            font-size: 80%;
+        }
 
-    header author > album:before {
-        content: "nr indeksu: ";
-    }
+        header author > album:before {
+            content: "nr indeksu: ";
+        }
 
-    header author > album {
-        font-size: 85%;
-    }
+        header author > album {
+            font-size: 85%;
+        }
 
         header author > field_of_study, header author > specialty, header author > year {
             display: list-item;
@@ -95,23 +96,23 @@ header > authors:before {
             font-size: 85%;
         }
 
-        header author > field_of_study:before, specialty:before, year:before {
-            display: inline-block;
-            width: 8em;
-            font-style: italic;
-        }
+            header author > field_of_study:before, specialty:before, year:before {
+                display: inline-block;
+                width: 8em;
+                font-style: italic;
+            }
 
-        header author > field_of_study:before {
-            content: "Kierunek: ";
-        }
+            header author > field_of_study:before {
+                content: "Kierunek: ";
+            }
 
-    header author > specialty:before {
-        content: "Specjalizacja: ";
-    }
+            header author > specialty:before {
+                content: "Specjalizacja: ";
+            }
 
-    header author > year:before {
-        content: "Rok studiów: ";
-    }
+            header author > year:before {
+                content: "Rok studiów: ";
+            }
 
 authors_list {
     display: none;
@@ -147,10 +148,10 @@ title {
     font-weight: bold;
 }
 
-title:before {
-    content: "Lista książek ";
-    text-transform: uppercase;
-}
+    title:before {
+        content: "Lista książek ";
+        text-transform: uppercase;
+    }
 
 genre:before {
     content: attr(name);
@@ -162,70 +163,71 @@ genre:before {
     width: 100%;
     height: 2.5ex;
     text-align: center;
-    background-color: #fec8dc; /* tlo pola z nazwą gatunku*/
+    background-color: #dfb; /* tlo pola z nazwą gatunku*/
     color: #000;
     font-weight: bold;
     /*text-transform: capitalize;   */
 }
+
 genre {
     display: block;
     margin: 2px 0px 4px 0px;
     border-bottom: dashed #000 1px;
     padding-bottom: 5px;
-    background-color: #fee1ec; /*tlo pola, w ktorym wyswietlane są książki z danego gatunku*/
+    background-color: #dfd; /*tlo pola, w ktorym wyswietlane są książki z danego gatunku*/
     color: #000;
 }
+
     genre > books {
-        background-color: #fff0f5; /*tlo pola z ksiazka*/
+        background-color: #efe; /*tlo pola z ksiazka*/
         color: #000;
     }
 
-    genre:nth-child(3):before {
-        background-color: #dfb; /* tlo pola z nazwą gatunku*/
+    genre:nth-child(2):before { /*Romans  */
+        background-color: #fec8dc; /* tlo pola z nazwą gatunku*/
         color: #000;
     }
 
-    genre:nth-child(3) {
-        background-color: #dfd; /* tlo pola, w ktorym wyswietlane są książki z danego gatunku*/
+    genre:nth-child(2) {
+        background-color: #fee1ec;
+        /* tlo pola, w ktorym wyswietlane są książki z danego gatunku*/
         color: #000;
     }
 
-        genre:nth-child(3) > books {
-            background-color: #efe; /*tlo pola z ksiazka*/
+        genre:nth-child(2) > books {
+            background-color: #fff0f5; /*tlo pola z ksiazka*/
             color: #000;
         }
 
-    genre:nth-child(5):before {
+    genre:nth-child(3):before {
         background-color: #72cff8; /* tlo pola z nazwą gatunku*/
         color: #000;
     }
 
-    genre:nth-child(5) {
+    genre:nth-child(3) {
         background-color: #a8e1fa; /* tlo pola, w ktorym wyswietlane są książki z danego gatunku*/
         color: #000;
     }
 
-        genre:nth-child(5) > books {
+        genre:nth-child(3) > books {
             background-color: #d3f0fd; /*tlo pola z ksiazka*/
             color: #000;
         }
 
-    genre:nth-child(6):before {
+    genre:nth-child(4):before {
         background-color: #faf897; /* tlo pola z nazwą gatunku   pomarancz*/
         color: #000;
     }
 
-    genre:nth-child(6) {
+    genre:nth-child(4) {
         background-color: #fcfbc0; /* tlo pola, w ktorym wyswietlane są książki z danego gatunku*/
         color: #000;
     }
 
-        genre:nth-child(6) > books {
+        genre:nth-child(4) > books {
             background-color: #fdfcd8; /*tlo pola z ksiazka*/
             color: #000;
         }
-
-
 
     genre:last-child {
         border-radius: 3ex;
@@ -331,12 +333,12 @@ books[cover="byli"]:before {
 books[cover="tata"]:before {
     content: url("covers/tata.jpg");
 }
+
 books {
     display: inline-block;
     outline: solid #000 1px;
     width: 18%;
     height: 25ex;
-    
 }
 
     books > book_title {
@@ -359,9 +361,10 @@ books {
         font-size: 120%;
         color: red;
     }
-    books > price:after {
-        content: "zł";
-    }
+
+        books > price:after {
+            content: "zł";
+        }
 
     books > book_author {
         float: left;
@@ -372,8 +375,8 @@ books {
     books > release_date:before {
         content: "Data wydania: ";
         font-weight: normal;
- 
     }
+
     books > release_date {
         margin-top: 10px;
         float: left;
@@ -389,6 +392,7 @@ books {
         display: inline-block;
         font-size: 80%;
     }
+
     books > pages:before {
         content: "Liczba stron: ";
         font-weight: normal;
@@ -398,21 +402,25 @@ books {
         display: inline-block;
         font-size: 80%;
     }
+
     books > ISBN:before {
         content: "ISBN: ";
         font-weight: normal;
-
     }
+
     books > ISBN {
         display: inline-block;
         font-size: 80%;
     }
+
     books:last-child {
         margin-bottom: 0px;
     }
+
     books[blok="1"] {
         margin-left: 25px;
     }
+
     books[blok="2"] {
         margin-left: 20px;
     }
@@ -428,5 +436,3 @@ books {
     books[blok="5"] {
         margin-left: 20px;
     }
-
-       
