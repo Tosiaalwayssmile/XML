@@ -131,10 +131,6 @@ book_list {
     color: #000;
 }
 
-    book_list:last-child {
-        margin-bottom: 0px;
-    }
-
 title {
     display: block;
     margin: 1px;
@@ -168,6 +164,7 @@ genre:before {
     font-weight: bold;
     /*text-transform: capitalize;   */
 }
+
 genre {
     display: block;
     margin: 2px 0px 4px 0px;
@@ -234,18 +231,6 @@ genre {
         -webkit-border-radius: 3ex;
     }
 
-    genre:empty:before {
-        display: none;
-    }
-
-    genre:empty {
-        visibility: hidden;
-    }
-
-    genre:not(:last-child):empty {
-        display: none;
-    }
-
 books:before {
     display: inline-block;
     float: left;
@@ -256,6 +241,7 @@ books:hover::before {
     opacity: 0.7;
     transition: .5s ease;
 }
+
 books[cover="cmętarz"]:before {
     content: url("covers/KingCZ.jpg");
 }
@@ -350,10 +336,11 @@ books {
         font-weight: bold;
         margin-left: 1px;
     }
-    books > book_title:hover {
-        color: coral;
-        transition: background-color .5s;
-    }
+
+        books > book_title:hover {
+            color: coral;
+            transition: background-color .5s;
+        }
 
     books > price {
         display: inline-block;
@@ -366,10 +353,26 @@ books {
         font-weight: bold;
         font-size: 120%;
         color: red;
+       
     }
-
-        books > price:after {
+        books > price:hover {
+            background-color: yellow;
+            transition: background-color .5s;
+        }
+        books > price[currency="PLN"]:after {
             content: "zł";
+        }
+
+        books > price[currency="USD"]:after {
+            content: "$";
+        }
+
+        books > price[currency="GBP"]:after {
+            content: "£";
+        }
+
+        books > price[currency="EUR"]:after {
+            content: "€";
         }
 
     books > book_author {
@@ -377,6 +380,7 @@ books {
         margin-left: 1px;
         font-size: 80%;
     }
+
         books > book_author:hover {
             color: coral;
             transition: background-color .5s;
@@ -402,12 +406,12 @@ books {
         display: inline-block;
         font-size: 80%;
     }
- 
 
-books > pages:before {
-    content: "Liczba stron: ";
-    font-weight: normal;
-}
+
+    books > pages:before {
+        content: "Liczba stron: ";
+        font-weight: normal;
+    }
 
     books > pages {
         display: inline-block;
@@ -422,10 +426,6 @@ books > pages:before {
     books > ISBN {
         display: inline-block;
         font-size: 80%;
-    }
-
-    books:last-child {
-        margin-bottom: 0px;
     }
 
     books[blok="1"] {

@@ -1,5 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!ENTITY % genretypes "(Horror|Romans|Młodzieżowe|Biografie)">
 <!ELEMENT bookstore (header, authors_list, title, book_list)>
 <!ELEMENT header (university, faculty, location, data, authors)>
 <!ELEMENT university (#PCDATA)>
@@ -34,14 +33,20 @@
 <!ELEMENT book_list (genre+)>
 <!ELEMENT genre (books*)>
 <!ATTLIST genre 
-                name %genretypes; #REQUIRED>
-<!ELEMENT books (book_title, book_author, release_date, covertype, pages, ISBN, price)>
+                name (Horror|Romans|Młodzieżowe|Biografie) #REQUIRED>
+<!ELEMENT books (book_title, book_author, release_date, pages, ISBN, price)>
+<!ATTLIST books
+  blok  NMTOKEN #REQUIRED
+  cover  NMTOKENS #REQUIRED
+  genretype  NMTOKENS #REQUIRED>
 <!ELEMENT book_title (#PCDATA)>
 <!ELEMENT book_author (name, surname)>
 <!ATTLIST book_author who IDREF #REQUIRED>
 <!ELEMENT release_date (#PCDATA)>
-<!ELEMENT covertype EMPTY>
+<!ELEMENT covertype (#PCDATA)>
 <!ATTLIST books covertype (miękka|twarda) #REQUIRED>
 <!ELEMENT pages (#PCDATA)>
 <!ELEMENT ISBN (#PCDATA)>
 <!ELEMENT price (#PCDATA)>
+<!ATTLIST price
+  currency (PLN|USD|GBP|EUR) #REQUIRED>
